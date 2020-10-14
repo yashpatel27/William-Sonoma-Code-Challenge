@@ -21,5 +21,5 @@ http://localhost:8080 (open in browser)
 2. Run _npm test_
 
 
-Coverage and Spec folders will be created inside _william_sonoma_ directory.
+Coverage and Spec folders will be created inside _william_sonoma_ directory.\
 To check coverage: open _william_sonoma/coverage/html/index.html_
