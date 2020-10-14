@@ -10,11 +10,6 @@
 6. Run _http-server --proxy http://localhost:8080?_
 7. Run http://localhost:8080 in browser
 
-npm i http-server (run in CMD)
-npm install --global http-server (run in CMD)
-http-server --proxy http://localhost:8080? (run in CMD)
-http://localhost:8080 (open in browser)
-
 
 ## To Run test cases
 1. Go to _william_sonoma_ directory
