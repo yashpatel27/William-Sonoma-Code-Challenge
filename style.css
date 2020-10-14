@@ -1,0 +1,99 @@
+.custom-card {
+    margin: 2px;
+}
+
+.title {
+    background: #E8E8E8;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #363636;
+}
+
+.price {
+    background: black;
+    width: 55px;
+    color: whitesmoke;
+    margin: 7px;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    width: 500px;
+    height: 500px;
+    background: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+    #text {
+        width: 350px !important;
+    }
+    .responsive {
+        margin-left: 0px !important;
+    }
+}
+
+.closeIcon {
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: right;
+    margin: 3px;
+}
+
+.closetext {
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    z-index: 20;
+    position: absolute;
+    /* left: 15px; */
+    padding: 8px;
+    margin-left: 4px;
+}
+
+.responsive {
+    margin-left: 200px;
+}
+
+.carousel-control-prev {
+    left: 0;
+    background: grey;
+    width: 30px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-control-next {
+    right: 0;
+    /* left: 0; */
+    background: grey;
+    width: 30px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+}

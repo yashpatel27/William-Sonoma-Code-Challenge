@@ -1,0 +1,33 @@
+{
+  "name": "jasmine-karma-test",
+  "version": "1.0.0",
+  "description": "jasmine testing with karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "karma",
+    "test",
+    "jasmine"
+  ],
+  "author": "Amir Sohel",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "jasmine-core": "^3.5.0",
+    "karma": "^3.1.4",
+    "karma-browserify": "^7.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^2.0.1",
+    "karma-jasmine": "^1.1.2",
+    "karma-jasmine-html-reporter": "^1.5.2",
+    "karma-spec-reporter": "0.0.32",
+    "three": "^0.114.0"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "karma-requirejs": "^1.1.0",
+    "require": "^2.4.20"
+  }
+}
